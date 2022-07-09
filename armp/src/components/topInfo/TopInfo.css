@@ -1,0 +1,29 @@
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+
+width: 200px;
+height: 40px;
+}
+.workHour{
+    font-size: 10px;
+}
+.maket{
+    font-size: 12px;
+}
+.phone{
+    font-weight: 700;
+    font-size: 14px;
+}
+.item1 { grid-area: menu; }
+.item2 { grid-area: main; }
+.item3 { grid-area: footer; }
+.phoneWrapper{
+    display: grid;
+    grid-template-areas:
+      'menu main main main'
+      'menu footer footer footer';
+    padding: 10px;
+}
