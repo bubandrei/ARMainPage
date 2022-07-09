@@ -1,10 +1,12 @@
 import './App.css';
+import Navbar from './components/Navbar.jsx'
 
-function App() {
+
+const App = () => {
   return (
     <div>
-      Hello world!
-    </div>
+      <Navbar/>
+    </div >
   );
 }
 
