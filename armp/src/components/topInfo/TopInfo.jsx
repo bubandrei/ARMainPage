@@ -19,15 +19,17 @@ const TopInfo = () => {
         <div>Выходной: воскресенье</div>
       </div>
       <div className="maket">
-        <img src={box} className='boxCircle'/>
-        Заказать 3D-макет дома
+        <img src={box} className="boxCircle" />
+        <div className="oder"> Заказать 3D-макет дома</div>
       </div>
       <div className="phoneWrapper">
         <div className="phoneAva">
           <img src={phone} className="iconsPhone" />
         </div>
         <div>
-          <div className="phone">+7 (915) 168-55-50</div>
+          <div className="circlePhone">
+            <div className="phone">+7 (915) 168-55-50</div>
+          </div>
           <div className="icons">
             <img src={simplePhone} />
             <img src={telegramm} />
