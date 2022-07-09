@@ -1,22 +1,28 @@
 import React from "react";
+import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import stNavbar from './Navbar.module.css';
+import stNavbar from "./Navbar.module.css";
 
 const Navbar = () => {
+  
+  const navRef = useRef();
+  const showNavbar = () => {
+    navRef.current.classlist.toggle("responsive_nav");
+  };
   return (
     <header>
-      <nav>
-        <div>Коталог домов</div>
-        <div>Услуги</div>
-        <div>О нас</div>
+      <nav ref={navRef}>
+        <a>Коталог домов</a>
+        <a>Услуги</a>
+        <a>О нас</a>
         <a href="">Контакты</a>
-        <div>Блог</div>
-        <button>
-          <FaTimes/>
+        <a>Блог</a>
+        <button onClick={showNavbar}>
+          <FaTimes />
         </button>
       </nav>
-      <button>
-        <FaBars/>
+      <button onClick={showNavbar}>
+        <FaBars />
       </button>
     </header>
   );
