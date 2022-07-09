@@ -10,18 +10,21 @@ import "./TopInfo.css";
 const TopInfo = () => {
   return (
     <div className="wrap">
-      <img src={logo} className="logo" />
+      <div>
+        <img src={logo} className="logo" />
+      </div>
+
       <div className="workHour">
         <div>Пн-Сб: c 10:00 до 20:00</div>
         <div>Выходной: воскресенье</div>
       </div>
       <div className="maket">
-        <img src={box} />
+        <img src={box} className='boxCircle'/>
         Заказать 3D-макет дома
       </div>
       <div className="phoneWrapper">
-        <div className="phoneAva" >
-          <img src={phone} className='iconsPhone' />
+        <div className="phoneAva">
+          <img src={phone} className="iconsPhone" />
         </div>
         <div>
           <div className="phone">+7 (915) 168-55-50</div>

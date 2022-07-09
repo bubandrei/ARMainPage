@@ -5,7 +5,17 @@ header {
   justify-content: center;
   height: 80px;
   padding: 0 32px;
-  background-color: green;
+  background: linear-gradient(
+    90deg,
+    rgba(246, 246, 246, 0) 1.47%,
+    rgba(163, 210, 155, 0.92) 7.25%,
+    #319f1c 14.68%,
+    #309e1b 50.68%,
+    #319f1c 84.33%,
+    rgba(147, 202, 137, 0.79) 91.68%,
+    rgba(246, 246, 246, 0) 99.05%
+  );
+  border-radius: 3px;
   color: white;
   font-family: "Raleway";
   font-style: normal;
