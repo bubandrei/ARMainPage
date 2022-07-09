@@ -20,15 +20,19 @@ const TopInfo = () => {
         Заказать 3D-макет дома
       </div>
       <div className="phoneWrapper">
-        <img src={phone} className='item1'/>
-        <div className="phone item2">+7 (915) 168-55-50</div>
-        <div className='item3'>
-          <img src={simplePhone} />
-          <img src={telegramm} />
-          <img src={viber} />
+        <div className="phoneAva" >
+          <img src={phone} className='iconsPhone' />
+        </div>
+        <div>
+          <div className="phone">+7 (915) 168-55-50</div>
+          <div className="icons">
+            <img src={simplePhone} />
+            <img src={telegramm} />
+            <img src={viber} />
+          </div>
         </div>
       </div>
-      <button>Заказать звонок</button>
+      <button className="btn_order">Заказать звонок</button>
     </div>
   );
 };
