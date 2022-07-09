@@ -1,4 +1,6 @@
 import React from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import stNavbar from './Navbar.module.css';
 
 const Navbar = () => {
   return (
@@ -9,7 +11,13 @@ const Navbar = () => {
         <div>О нас</div>
         <a href="">Контакты</a>
         <div>Блог</div>
+        <button>
+          <FaTimes/>
+        </button>
       </nav>
+      <button>
+        <FaBars/>
+      </button>
     </header>
   );
 };
