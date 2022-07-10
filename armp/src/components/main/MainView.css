@@ -4,6 +4,16 @@ body {
   background-repeat: no-repeat;
   background-position: right -8%;
 }
-.flexIcons{
-    display: flex;
+.flexIcons {
+  display: flex;
+}
+.title {
+}
+.mainCover {
+}
+.article {
+}
+.portfolio {
+}
+.video {
 }
