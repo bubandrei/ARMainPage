@@ -3,6 +3,7 @@ import "./VideoBlog.css";
 import img1 from "../../assets/images/1.png";
 import img2 from "../../assets/images/2.png";
 import img3 from "../../assets/images/3.png";
+import vector from "../../assets/images/vector.png";
 
 const VideoBlog = () => {
   return (
@@ -13,15 +14,59 @@ const VideoBlog = () => {
         информацией
       </div>
       <div className="fotoBlog">
-        <div>
-          <img src={img1} className="styleFoto" />
+        <div className="generalForText">
+          <div className="blackFoto">
+            <img src={img1} className="styleFoto" />
+          </div>
+          <div className="titleVideo">
+            <div className="topText">
+              Как выбрать материал <div>для дома?</div>
+            </div>
+            <div className="vector">
+              <img src={vector} className="imgSize" />
+            </div>
+            <div className="footText">
+              <b>Евгений Иванов,</b>
+              <div>руководитель строительной бригады</div>
+            </div>
+          </div>
         </div>
-        <div>
-          <img src={img2} className="styleFoto" />
+        <div className="generalForText">
+          <div className="blackFoto">
+            <img src={img2} className="styleFoto" />
+          </div>
+          <div className="titleVideo">
+            <div className="topText">
+              Как выбрать подрядчика для <div>строительства дома?</div>
+            </div>
+            <div className="vector">
+              <img src={vector} className="imgSize" />
+            </div>
+            <div className="footText">
+              <b> Егор Стародубцев,</b>
+              <div>основатель компании</div>
+            </div>
+          </div>
         </div>
-        <div>
-          <img src={img3} className="styleFoto" />
+        <div className="generalForText">
+          <div className="blackFoto">
+            <img src={img3} className="styleFoto" />
+          </div>
+          <div className="titleVideo">
+            <div className="topText">
+              Преимущества кирпичного <div> дома</div>
+            </div>
+            <div className="vector">
+              <img src={vector} className="imgSize" />
+            </div>
+            <div className="footText">
+              <b>Евгений Иванов,</b>
+              <div>руководитель строительной бригады</div>
+            </div>
+          </div>
         </div>
+        <div></div>
+        <div></div>
       </div>
       <div className="blockforbtn">
         <button className="btnVideo">Больше полезных видео</button>
