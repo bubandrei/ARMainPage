@@ -46,8 +46,6 @@ const Article = () => {
             <div className="footText2">Время на чтение: 3 минуты</div>
           </div>
         </div>
-        <div></div>
-        <div></div>
       </div>
       <div className="blockforbtn2">
         <button className="btnArt">Больше полезных видео</button>

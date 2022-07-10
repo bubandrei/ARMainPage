@@ -18,18 +18,19 @@
   .fotoBlog2 {
     display: flex;
     text-align: center;
+    align-items: center;
   }
   .styleFoto2 {
     width: 90%;
   }
   .blackFoto2:after {
-    /* content: "";
+    content: "";
     width: 90%;
     height: 98%;
     position: absolute;
     top: 0px;
     left: 5%;
-    background-color: rgba(0, 0, 0, 0.5); */
+    background-color: rgba(0, 0, 0, 0.5);
   }
   .btnArt {
     background-color: #319f1c;
