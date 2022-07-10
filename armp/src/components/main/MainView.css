@@ -3,14 +3,14 @@ body {
   background-size: 850px;
   background-repeat: no-repeat;
   background-position: 100% 0%;
-
-
 }
 .wrapMain {
   width: 50%;
 }
 .flexIcons {
   display: flex;
+  justify-content: flex-start;
+  padding-top: 5%;
 }
 .title {
   padding-top: 5%;
@@ -22,16 +22,40 @@ body {
   font-weight: 900;
 }
 .mainCover {
-    padding-top: 5%;
-    font-family: Raleway;
-    font-size: 18px;
-    line-height: 24px;
-    /* line-height: 112%; */
-    vertical-align: Top;
+  padding-top: 5%;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 24px;
+  vertical-align: Top;
 }
-.article {
+.fixSize {
+  width: 30%;
 }
-.portfolio {
+.styleText {
+  font-size: 12px;
+  font-family: Raleway;
+  padding-top: 15%;
 }
-.video {
+.inputFill {
+  width: 140px;
+  height: 25px;
+  border: 1px solid #319f1c;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.styleInput {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+.btnSend {
+  background-color: #319f1c;
+
+  box-shadow: 0 2px 10px #319f1c;
+  height: 28px;
+}
+.bottomText {
+  text-align: center;
+  font-size: 16px;
+  font-family: Raleway;
 }

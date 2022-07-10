@@ -18,24 +18,26 @@ const MainView = () => {
         учиться вместе с нами.
       </div>
       <div className="flexIcons">
-        <div className="article">
+        <div className="fixSize">
           <img src={article} />
-          <div>Кейсы</div>
+          <div className="styleText">Кейсы</div>
         </div>
-        <div className="portfolio">
+        <div className="fixSize">
           <img src={portfolio} />
-          <div>Видеоблог</div>
+          <div className="styleText">Видеоблог</div>
         </div>
-        <div className="video">
+        <div className="fixSize">
           <img src={video} />
-          <div>Полезные статьи</div>
+          <div className="styleText">Полезные статьи</div>
         </div>
       </div>
       <div>
-        <input type="text" placeholder="Ваше имя" />
-        <input type="number" placeholder="Номер телефона" />
-        <input type="submit" placeholder="Получить консультацию" />
-        <div>
+        <div className="styleInput">
+          <input className="inputFill" type="text" placeholder="Ваше имя" />
+          <input className="inputFill" type="number" placeholder="Номер телефона" />
+          <input className="inputFill btnSend" type="submit" value="Получить консультацию"/>
+        </div>
+        <div className="bottomText">
           Ищите профессионалов? Оставьте заявку и мы проконсультируем вас
           абсолютно бесплатно!
         </div>
