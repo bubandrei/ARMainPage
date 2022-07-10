@@ -1,4 +1,5 @@
 import './App.css';
+import Article from './components/articl/Article';
 import Case from './components/case/Case';
 import MainView from './components/main/MainView';
 import Navbar from './components/navbar/Navbar';
@@ -12,8 +13,9 @@ const App = () => {
       <TopInfo />
       <Navbar />
       <MainView />
-      <Case/>
-      <VideoBlog/>
+      <Case />
+      <VideoBlog />
+      <Article />
     </div >
   );
 }
