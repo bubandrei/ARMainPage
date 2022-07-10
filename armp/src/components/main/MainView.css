@@ -2,10 +2,12 @@ body {
   background-image: url(../../assets/images/image2.png);
   background-size: 850px;
   background-repeat: no-repeat;
-  background-position: 116% -12%;
+  background-position: 100% 0%;
+
+
 }
 .wrapMain {
-  width: 60%;
+  width: 50%;
 }
 .flexIcons {
   display: flex;
@@ -20,6 +22,12 @@ body {
   font-weight: 900;
 }
 .mainCover {
+    padding-top: 5%;
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 24px;
+    /* line-height: 112%; */
+    vertical-align: Top;
 }
 .article {
 }
