@@ -1,8 +1,8 @@
 import React from "react";
 import "./VideoBlog.css";
-import img1 from '../../assets/images/1.png';
-import img2 from '../../assets/images/2.png';
-import img3 from '../../assets/images/3.png';
+import img1 from "../../assets/images/1.png";
+import img2 from "../../assets/images/2.png";
+import img3 from "../../assets/images/3.png";
 
 const VideoBlog = () => {
   return (
@@ -14,17 +14,17 @@ const VideoBlog = () => {
       </div>
       <div className="fotoBlog">
         <div>
-          <img src={img1} className="styleFoto"/>
+          <img src={img1} className="styleFoto" />
         </div>
         <div>
-          <img src={img2} className="styleFoto"/>
+          <img src={img2} className="styleFoto" />
         </div>
         <div>
-          <img src={img3} className="styleFoto"/>
+          <img src={img3} className="styleFoto" />
         </div>
       </div>
-      <div>
-        <button>Больше полезных видео</button>
+      <div className="blockforbtn">
+        <button className="btnVideo">Больше полезных видео</button>
       </div>
     </div>
   );
