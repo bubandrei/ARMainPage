@@ -1,13 +1,23 @@
 body {
   background-image: url(../../assets/images/image2.png);
-  background-size: 800px;
+  background-size: 850px;
   background-repeat: no-repeat;
-  background-position: right -8%;
+  background-position: 116% -12%;
+}
+.wrapMain {
+  width: 60%;
 }
 .flexIcons {
   display: flex;
 }
 .title {
+  padding-top: 5%;
+  font-family: Montserrat;
+  font-size: 28px;
+  line-height: 52px;
+  line-height: 112%;
+  vertical-align: Top;
+  font-weight: 900;
 }
 .mainCover {
 }

@@ -6,7 +6,7 @@ import "./MainView.css";
 
 const MainView = () => {
   return (
-    <div className="backImage">
+    <div className="wrapMain">
       <div className="title">
         Мы знаем о строительстве все, каждый новый проект — это отдельная
         история
