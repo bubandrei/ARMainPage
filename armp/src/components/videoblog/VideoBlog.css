@@ -1,0 +1,31 @@
+.mainBlog{
+    background-image: url(../../assets/images/backVideo.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.titleBlog{
+    padding-top: 5%;
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 52px;
+    line-height: 112%;
+    vertical-align: Top;
+    font-weight: 900;
+}
+.textBlog{
+    padding-top: 1%;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: Top;
+    margin-bottom: 4%;
+}
+.fotoBlog{
+display: flex;
+text-align: center;
+}
+.styleFoto{
+    width: 90%;
+}
