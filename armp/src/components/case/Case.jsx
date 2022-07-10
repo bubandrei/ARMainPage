@@ -8,31 +8,35 @@ import woodenhouse from "../../assets/images/woodenhouse.png";
 
 const Case = () => {
   return (
-    <div>
+    <div className="wrapCase">
       <div className="titleCase">Кейсы</div>
       <div className="textCase">
         Показываем процесс работы изнутри, делимся результатами, опытом,
         полезными фишками
       </div>
-      <div>
-        <div>
-          <div>
+      <div className="wrapInCase">
+        <div className="caseOption">
+          <div className="borderInput backGreen">
             <img src={cabin1} />
+            <span className="textStyle">Дома из оцилиндрованного бруса</span>
           </div>
-          <div>
+          <div className="borderInput">
             <img src={woodenhouse} />
+            <span  className="textStyle">Дома из клееного бруса</span>
           </div>
-          <div>
+          <div className="borderInput">
             <img src={doghouse} />
+            <span  className="textStyle">Кирпичные/каменные дома</span>
           </div>
-          <div>
+          <div className="borderInput">
             <img src={portfolio1} />
+            <span  className="textStyle">Кейсы по услугам</span>
           </div>
         </div>
-        <div>
-          <img src={foto} />
+        <div className="wrapFoto">
+          <img src={foto} className="caseFoto" />
         </div>
-        <div>
+        <div className="caseText">
           <div>Дом в Балашихе</div>
           <div>Площадь 128м.кв.</div>
           <div>
@@ -41,7 +45,9 @@ const Case = () => {
           </div>
           <div>Стиль: европейский</div>
           <div>Стоимость: 2100000 ₽</div>
-          <div><a href="">Подробнее о проекте</a></div>
+          <div>
+            <a href="">Подробнее о проекте</a>
+          </div>
         </div>
       </div>
     </div>
