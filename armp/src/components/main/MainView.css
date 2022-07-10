@@ -1,0 +1,9 @@
+body {
+  background-image: url(../../assets/images/image2.png);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: right -8%;
+}
+.flexIcons{
+    display: flex;
+}
