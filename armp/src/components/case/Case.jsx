@@ -37,16 +37,16 @@ const Case = () => {
           <img src={foto} className="caseFoto" />
         </div>
         <div className="caseText">
-          <div>Дом в Балашихе</div>
-          <div>Площадь 128м.кв.</div>
+          <div className="titleBlock">Дом в Балашихе</div>
+          <div><span className="bold">Площадь:</span> <span className="square">  128м.кв.</span> </div>
           <div>
-            <span>Кол-во комнат: 2</span>
-            <span>Кол-во этажей: 2</span>
+            <span className="bold">Кол-во комнат:</span><span className="simpleText">  2</span>
+            <span className="bold">Кол-во этажей:</span><span className="simpleText">  2</span>
           </div>
-          <div>Стиль: европейский</div>
-          <div>Стоимость: 2100000 ₽</div>
-          <div>
-            <a href="">Подробнее о проекте</a>
+          <div><span className="bold">Стиль:</span> <span className="simpleText">европейский</span></div>
+          <div><span className="bold">Стоимость:</span><span className="square">  2100000 ₽</span>  </div>
+          <div className="link">
+            <a href="" className="bold">Подробнее о проекте</a>
           </div>
         </div>
       </div>
