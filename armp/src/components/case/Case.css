@@ -1,0 +1,16 @@
+.titleCase {
+  padding-top: 5%;
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 52px;
+  line-height: 112%;
+  vertical-align: Top;
+  font-weight: 900;
+}
+.textCase {
+  padding-top: 1%;
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 24px;
+  vertical-align: Top;
+}
