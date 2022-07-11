@@ -1,8 +1,11 @@
 .wrapFootForm {
     display: flex;
+    margin-top: 50px;
 }
 
-.homeImg {}
+.homeImg {
+    width: 80%;
+}
 
 .styleForm {
     display: flex;
@@ -44,8 +47,9 @@
 
 .wrapForm {
     align-self: center;
+    width: 30%;
 }
-.styleForm input{
+.inputField{
     padding: 10px;
 }
 .styleForm input, textarea{
