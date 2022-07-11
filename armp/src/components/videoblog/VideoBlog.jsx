@@ -65,8 +65,6 @@ const VideoBlog = () => {
             </div>
           </div>
         </div>
-        <div></div>
-        <div></div>
       </div>
       <div className="blockforbtn">
         <button className="btnVideo">Больше полезных видео</button>

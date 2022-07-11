@@ -1,6 +1,7 @@
 import './App.css';
 import Article from './components/articl/Article';
 import Case from './components/case/Case';
+import FootForm from './components/footForm/FootForm';
 import MainView from './components/main/MainView';
 import Navbar from './components/navbar/Navbar';
 import TopInfo from './components/topInfo/TopInfo';
@@ -16,6 +17,7 @@ const App = () => {
       <Case />
       <VideoBlog />
       <Article />
+      <FootForm/>
     </div >
   );
 }
