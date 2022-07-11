@@ -1,6 +1,6 @@
 .wrapFooter {
     width: 100%;
-    height: 200px;
+    aspect-ratio: 6;
     background-color: #363130;
     color: white;
     display: flex;
