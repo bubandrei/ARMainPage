@@ -1,6 +1,7 @@
 import './App.css';
 import Article from './components/articl/Article';
 import Case from './components/case/Case';
+import Footer from './components/footer/Footer';
 import FootForm from './components/footForm/FootForm';
 import MainView from './components/main/MainView';
 import Navbar from './components/navbar/Navbar';
@@ -18,6 +19,7 @@ const App = () => {
       <VideoBlog />
       <Article />
       <FootForm/>
+      <Footer/>
     </div >
   );
 }
