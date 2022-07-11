@@ -14,7 +14,7 @@ const Footer = () =>
             <div className="commonStyle">
                 <div><img src={logoBlack} alt="" /></div>
                 <div>
-                    <button>Заказать звонок</button>
+                    <button className="btnCall">Заказать звонок</button>
                 </div>
             </div>
             <div className="commonStyle">
@@ -33,7 +33,7 @@ const Footer = () =>
             </div>
             <div className="commonStyle">
                 <div>Делимся крутыми проектами в соц.сетях. Подписывайтесь!</div>
-                <div>
+                <div className="iconsFooter">
                     <img src={vk}/><img src={insta}/><img src={facebook}/><img src={youtube}/>
                 </div>
                 <div>Разработка и продвижение сайта:</div>
