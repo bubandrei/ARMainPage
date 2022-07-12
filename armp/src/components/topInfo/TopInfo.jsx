@@ -31,9 +31,9 @@ const TopInfo = () => {
             <div className="phone">+7 (915) 168-55-50</div>
           </div>
           <div className="icons">
-            <img src={simplePhone} />
-            <img src={telegramm} />
-            <img src={viber} />
+            <img className="iconsStyle" src={simplePhone} />
+            <img className="iconsStyle" src={telegramm} />
+            <img className="iconsStyle" src={viber} />
           </div>
         </div>
       </div>

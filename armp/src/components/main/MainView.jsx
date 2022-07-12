@@ -4,7 +4,8 @@ import portfolio from "../../assets/images/portfolio.png";
 import video from "../../assets/images/video.png";
 import "./MainView.css";
 
-const MainView = () => {
+const MainView = () =>
+{
   return (
     <div className="wrapMain">
       <div className="title">
@@ -19,23 +20,23 @@ const MainView = () => {
       </div>
       <div className="flexIcons">
         <div className="fixSize">
-          <img src={article} />
+          <div className="imgStyleIcon"><img className="positionIcons" src={ article } /></div>
           <div className="styleText">Кейсы</div>
         </div>
         <div className="fixSize">
-          <img src={portfolio} />
+          <div className="imgStyleIcon"><img className="positionIcons" src={ portfolio } /></div>
           <div className="styleText">Видеоблог</div>
         </div>
         <div className="fixSize">
-          <img src={video} />
+          <div className="imgStyleIcon"><img className="positionIcons" src={ video } /></div>
           <div className="styleText">Полезные статьи</div>
         </div>
       </div>
-      <div>
+      <div className="wrapInput">
         <div className="styleInput">
           <input className="inputFill" type="text" placeholder="Ваше имя" />
           <input className="inputFill" type="number" placeholder="Номер телефона" />
-          <input className="inputFill btnSend" type="submit" value="Получить консультацию"/>
+          <input className="inputFill btnSend" type="submit" value="Получить консультацию" />
         </div>
         <div className="bottomText">
           Ищите профессионалов? Оставьте заявку и мы проконсультируем вас
