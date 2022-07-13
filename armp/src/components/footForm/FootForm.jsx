@@ -6,7 +6,7 @@ const FootForm = () =>
 {
     return (
         <div className="wrapFootForm">
-            <div >
+            <div className="posImg" >
                 <img src={ home } className="homeImg" />
             </div>
             <div className="wrapForm">
