@@ -1,36 +1,40 @@
   .titleBlog2 {
-    padding-top: 2%;
+    padding-top: 15px;
     font-family: Montserrat;
-    font-size: 24px;
+    font-style: normal;
+    font-size: 32px;
     line-height: 52px;
-    line-height: 112%;
     vertical-align: Top;
     font-weight: 900;
   }
   .textBlog2 {
     padding-top: 1%;
     font-family: Raleway;
-    font-size: 14px;
-    line-height: 24px;
-    vertical-align: Top;
+    font-size: 18px;
+    line-height: 21px;
     margin-bottom: 2%;
+    width: 794px;
+    height: 24px;
+    font-weight: 400;
   }
   .fotoBlog2 {
     display: flex;
-    text-align: center;
-    align-items: center;
+  text-align: center;
+  width: 1697px;
+  justify-content: space-between;
   }
   .styleFoto2 {
-    width: 90%;
+    width: 510px;
+    height: 330px;
   }
   .blackFoto2:after {
-    content: "";
+    /* content: "";
     width: 90%;
     height: 98%;
     position: absolute;
     top: 0px;
     left: 5%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); */
   }
   .btnArt {
     background-color: #319f1c;
@@ -38,10 +42,12 @@
     border: none;
     box-shadow: 0 2px 10px #319f1c;
     height: 22px;
-    font-size: 10px;
+    font-size: 16px;
     border-radius: 5px;
-    width: 160px;
+    width: 238px;
+    height: 43px;
     margin-top: 2%;
+    font-weight: 600;
   }
   .blockforbtn2 {
     text-align: center;
@@ -62,17 +68,24 @@
     justify-content: space-evenly;
     align-items: flex-start;
   }
-  .imgSize2 {
+  /* .imgSize2 {
     width: 70%;
-  }
+  } */
   .topText2 {
-    font-size: 14px;
-    font-weight: 900;
     text-align: left;
-    padding-left: 16px;
+    padding-left: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
   }
   .footText2 {
-    font-size: 12px;
     text-align: left;
-    padding-left: 16px;
+    padding-left: 60px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
   }

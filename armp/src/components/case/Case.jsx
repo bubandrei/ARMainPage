@@ -17,19 +17,19 @@ const Case = () => {
       <div className="wrapInCase">
         <div className="caseOption">
           <div className="borderInput backGreen">
-            <img src={cabin1} />
+            <img className="textStyle" src={cabin1} />
             <span className="textStyle">Дома из оцилиндрованного бруса</span>
           </div>
           <div className="borderInput">
-            <img src={woodenhouse} />
+            <img className="textStyle" src={woodenhouse} />
             <span  className="textStyle">Дома из клееного бруса</span>
           </div>
           <div className="borderInput">
-            <img src={doghouse} />
+            <img className="textStyle" src={doghouse} />
             <span  className="textStyle">Кирпичные/каменные дома</span>
           </div>
-          <div className="borderInput">
-            <img src={portfolio1} />
+          <div  className="borderInput">
+            <img className="textStyle" src={portfolio1} />
             <span  className="textStyle">Кейсы по услугам</span>
           </div>
         </div>
