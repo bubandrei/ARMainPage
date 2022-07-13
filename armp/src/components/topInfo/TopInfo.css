@@ -3,7 +3,22 @@
   justify-content: space-between;
   align-items: center;
   padding: 1% 0%;
+  position: relative;
 
+}
+.topClouds{
+  position: absolute;
+  width: 720px;
+  height: 247px;
+  top: 10px;
+  left: 1614px;
+}
+.topClouds2{
+  position: absolute;
+  width: 1032px;
+  height: 354px;
+  top: 644px;
+  left: 1330px;
 }
 .logo {
   width: 300px;

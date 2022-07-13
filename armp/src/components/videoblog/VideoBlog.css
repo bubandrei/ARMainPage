@@ -1,9 +1,18 @@
 .mainBlog {
-  background-image: url(../../assets/images/backVideo.png);
+
   /* width: 2000px; */
   /* background-size: 100% 100%; */
   /* background-repeat: no-repeat; */
   height: 824px;
+}
+
+.mainImg {
+  background-image: url(../../assets/images/backVideo.png);
+  width: 100%;
+  height: 824px;
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
 }
 
 .titleBlog {

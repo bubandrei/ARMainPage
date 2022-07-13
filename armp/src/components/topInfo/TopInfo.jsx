@@ -6,12 +6,16 @@ import telegramm from "../../assets/images/Group_1279.png";
 import viber from "../../assets/images/Group_1280.png";
 import simplePhone from "../../assets/images/Group_1278.png";
 import "./TopInfo.css";
+import clouds from "../../assets/images/12.png"
+import clouds2 from "../../assets/images/13.png"
 
 const TopInfo = () => {
   return (
     <div className="wrap">
+      <div className="topClouds"><img src={clouds}/></div>
+      <div className="topClouds2"><img src={clouds2}/></div>
       <div>
-        <img src={logo} className="logo" />
+                <img src={logo} className="logo" />
       </div>
 
       <div className="workHour">

@@ -8,6 +8,7 @@ import vector from "../../assets/images/vector.png";
 const VideoBlog = () => {
   return (
     <div className="mainBlog">
+      <div className="mainImg"></div>
       <div className="titleBlog">Видеоблог</div>
       <div className="textBlog">
         Снимаем для вас интересные ролики, в которых делимся полезной
