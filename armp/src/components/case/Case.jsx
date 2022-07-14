@@ -5,11 +5,15 @@ import portfolio1 from "../../assets/images/portfolio1.png";
 import cabin1 from "../../assets/images/cabin1.png";
 import doghouse from "../../assets/images/doghouse.png";
 import woodenhouse from "../../assets/images/woodenhouse.png";
+import image7 from "../../assets/images/7.png";
 
-const Case = () => {
+const Case = () =>
+{
   return (
     <div className="wrapCase">
-      <div className="titleCase">Кейсы</div>
+      <div className="titleCase">Кейсы
+      </div>
+      <div className="styleImg7"><img src={image7} /></div>
       <div className="textCase">
         Показываем процесс работы изнутри, делимся результатами, опытом,
         полезными фишками
@@ -22,15 +26,15 @@ const Case = () => {
           </div>
           <div className="borderInput">
             <img className="textStyle" src={woodenhouse} />
-            <span  className="textStyle">Дома из клееного бруса</span>
+            <span className="textStyle">Дома из клееного бруса</span>
           </div>
           <div className="borderInput">
             <img className="textStyle" src={doghouse} />
-            <span  className="textStyle">Кирпичные/каменные дома</span>
+            <span className="textStyle">Кирпичные/каменные дома</span>
           </div>
-          <div  className="borderInput">
+          <div className="borderInput">
             <img className="textStyle" src={portfolio1} />
-            <span  className="textStyle">Кейсы по услугам</span>
+            <span className="textStyle">Кейсы по услугам</span>
           </div>
         </div>
         <div className="wrapFoto">
