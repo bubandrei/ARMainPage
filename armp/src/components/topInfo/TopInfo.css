@@ -6,24 +6,30 @@
   position: relative;
 
 }
-.topClouds{
+
+.topClouds {
   position: absolute;
-  width: 720px;
+  width: 178px;
   height: 247px;
   top: 10px;
   left: 1614px;
+  overflow: hidden;
 }
-.topClouds2{
+
+.topClouds2 {
   position: absolute;
-  width: 1032px;
+  width: 461px;
   height: 354px;
   top: 644px;
   left: 1330px;
+  overflow: hidden;
 }
+
 .logo {
   width: 300px;
   height: 60px;
 }
+
 .workHour {
   font-family: 'Raleway';
   font-style: normal;
@@ -32,6 +38,7 @@
   width: 185px;
   height: 48px;
 }
+
 .maket {
   font-family: "Raleway";
   font-style: normal;
@@ -40,20 +47,24 @@
   display: flex;
   align-items: center;
 }
-.oder{
-    border-bottom: 1px solid;
-    width: 186px;
-    height: 20px;
-    font-weight: 500;
-    font-size: 18px;
+
+.oder {
+  border-bottom: 1px solid;
+  width: 186px;
+  height: 20px;
+  font-weight: 500;
+  font-size: 18px;
 }
+
 .phoneWrapper {
   display: flex;
   align-self: center;
 }
+
 .phoneAva {
   align-self: center;
 }
+
 .phone {
   padding-left: 10px;
   width: 200px;
@@ -63,18 +74,21 @@
   font-weight: 800;
   font-size: 22px;
 }
+
 .icons {
   display: flex;
   justify-content: space-evenly;
   height: 20px;
   padding-top: 4px;
 }
+
 .iconsPhone {
-    padding: 6px;
-    border: 2px solid #319F1C;
-    border-radius: 50%;
-    box-shadow: 0px 0px 8px 2px #319f1c;
+  padding: 6px;
+  border: 2px solid #319F1C;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 2px #319f1c;
 }
+
 .btn_order {
   background-color: green;
   border: none;
@@ -88,15 +102,16 @@
   width: 230px;
   height: 60px;
 }
-.boxCircle{
-    border: 4px solid #E4E4E4;
-    border-radius: 50%;
-    margin-right: 6px;
-}
-.circlePhone{
 
+.boxCircle {
+  border: 4px solid #E4E4E4;
+  border-radius: 50%;
+  margin-right: 6px;
 }
-.iconsStyle{
+
+.circlePhone {}
+
+.iconsStyle {
   width: 25px;
   height: 25px;
 }

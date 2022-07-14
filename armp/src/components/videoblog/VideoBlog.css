@@ -83,7 +83,7 @@
   position: absolute;
   width: 196px;
   height: 124px;
-  left: 1700px;
+  left: 1680px;
   top: 1420px;
   /* transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0); */
 }
@@ -99,11 +99,11 @@
 
 .styleCloudImg {
   position: absolute;
-  width: 1410px;
+  width: 878px;
   height: 478px;
   left: 1007px;
   top: 1853px;
-
+  background-image: url(../../assets/images/15.png);
 }
 
 .generalForText {
