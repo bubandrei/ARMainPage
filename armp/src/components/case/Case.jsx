@@ -7,6 +7,9 @@ import doghouse from "../../assets/images/doghouse.png";
 import woodenhouse from "../../assets/images/woodenhouse.png";
 import image7 from "../../assets/images/7.png";
 import tree1 from "../../assets/images/14.png";
+import toggle from "../../assets/images/8.png";
+import leftAr from "../../assets/images/left.png";
+import rightAr from "../../assets/images/right.png";
 
 const Case = () =>
 {
@@ -14,8 +17,8 @@ const Case = () =>
     <div className="wrapCase">
       <div className="titleCase">Кейсы
       </div>
-      <div className="styleImg7"><img src={image7} /></div>
-      <div className="styleImgTree1"><img src={tree1} /></div>
+      <div className="styleImg7"><img src={ image7 } /></div>
+      <div className="styleImgTree1"><img src={ tree1 } /></div>
       <div className="textCase">
         Показываем процесс работы изнутри, делимся результатами, опытом,
         полезными фишками
@@ -23,24 +26,34 @@ const Case = () =>
       <div className="wrapInCase">
         <div className="caseOption">
           <div className="borderInput backGreen">
-            <img className="textStyle" src={cabin1} />
+            <img className="textStyle" src={ cabin1 } />
             <span className="textStyle">Дома из оцилиндрованного бруса</span>
           </div>
           <div className="borderInput">
-            <img className="textStyle" src={woodenhouse} />
+            <img className="textStyle" src={ woodenhouse } />
             <span className="textStyle">Дома из клееного бруса</span>
           </div>
           <div className="borderInput">
-            <img className="textStyle" src={doghouse} />
+            <img className="textStyle" src={ doghouse } />
             <span className="textStyle">Кирпичные/каменные дома</span>
           </div>
           <div className="borderInput">
-            <img className="textStyle" src={portfolio1} />
+            <img className="textStyle" src={ portfolio1 } />
             <span className="textStyle">Кейсы по услугам</span>
           </div>
         </div>
         <div className="wrapFoto">
-          <img src={foto} className="caseFoto" />
+          <div>
+            <img src={ foto } className="caseFoto" />
+            <div className="toggleStyle">
+              <img src={ toggle }/>
+              <div className="leftright">
+                <img className="imgLR" src={leftAr}/>
+                <img className="imgLR" src={rightAr}/>
+              </div>
+            </div>
+          </div>
+
         </div>
         <div className="caseText">
           <div className="titleBlock">Дом в Балашихе</div>

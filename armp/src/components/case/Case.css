@@ -79,9 +79,25 @@
   padding-left: 6%;
 }
 
+.toggleStyle {
+  position: absolute;
+  bottom: -8px;
+  left: -6px;
+}
+.leftright{
+  position: absolute;
+  bottom: 33px;
+  display: flex;
+  width: 220px;
+  justify-content: space-evenly;
+}
+
 .backGreen {
   color: white;
   background-color: #319f1c;
+}
+.imgLR{
+  display: block;
 }
 
 .titleBlock {
