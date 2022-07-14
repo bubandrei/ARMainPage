@@ -26,11 +26,19 @@
 .wrapInCase {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
-.caseOption {
-
+.styleImg7 {
+  position: absolute;
+  width: 182.87px;
+  height: 140.2px;
+  left: 1072.29px;
+  top: 821px;
+  transform: rotate(15deg);
 }
+
+.caseOption {}
 
 .caseFoto {
   width: 776px;
