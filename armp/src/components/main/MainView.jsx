@@ -2,7 +2,9 @@ import React from "react";
 import article from "../../assets/images/article.png";
 import portfolio from "../../assets/images/portfolio.png";
 import video from "../../assets/images/video.png";
+import clouds2 from "../../assets/images/13.png"
 import "./MainView.css";
+
 
 const MainView = () =>
 {
@@ -43,6 +45,7 @@ const MainView = () =>
           абсолютно бесплатно!
         </div>
       </div>
+      <div className="topClouds2"><img src={clouds2}/></div>
     </div>
   );
 };

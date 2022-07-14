@@ -9,21 +9,14 @@
 
 .topClouds {
   position: absolute;
-  width: 178px;
-  height: 247px;
-  top: 10px;
-  left: 1614px;
+  max-width: 178px;
+  max-height: 247px;
+  top: 0%;
+  left: 95%;
   overflow: hidden;
 }
 
-.topClouds2 {
-  position: absolute;
-  width: 589px;
-  height: 354px;
-  top: 644px;
-  left: 1202px;
-  overflow: hidden;
-}
+
 
 .logo {
   width: 300px;
@@ -114,4 +107,19 @@
 .iconsStyle {
   width: 25px;
   height: 25px;
+}
+@media only screen and (max-width: 1400px) {
+  .workHour{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .btn_order{
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .phoneWrapper{
+    display: none;
+  }
 }

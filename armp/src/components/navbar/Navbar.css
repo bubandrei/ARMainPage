@@ -21,7 +21,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  width: 1580px;
+  max-width: 1580px;
 }
 header .nav_btn {
   background-color: brown;
