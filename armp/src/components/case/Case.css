@@ -120,6 +120,14 @@
   padding: 24px;
 }
 
+  .rub{
+    display: inline-block; 
+    font-size: 34px; 
+    line-height: 7px;  
+    border-bottom: 1px solid #319f1c;
+   width:0.4em;
+   }
+
 .square {
   color: #319f1c;
   font-size: 34px;
