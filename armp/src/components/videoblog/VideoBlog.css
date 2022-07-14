@@ -16,6 +16,7 @@
 }
 
 .titleBlog {
+  position: relative;
   padding-top: 119px;
   font-family: Montserrat;
   font-style: normal;
@@ -26,6 +27,7 @@
 }
 
 .textBlog {
+  position: relative;
   padding-top: 1%;
   font-family: Raleway;
   font-size: 18px;
@@ -73,7 +75,35 @@
 }
 
 .blockforbtn {
+  position: relative;
   text-align: center;
+}
+
+.styleListImg {
+  position: absolute;
+  width: 196px;
+  height: 124px;
+  left: 1700px;
+  top: 1420px;
+  /* transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0); */
+}
+
+.styleListImg2 {
+  position: absolute;
+  width: 175px;
+  height: 110px;
+  left: 650px;
+  top: 2050px;
+  transform: scale(-1, 1);
+}
+
+.styleCloudImg {
+  position: absolute;
+  width: 1410px;
+  height: 478px;
+  left: 1007px;
+  top: 1853px;
+
 }
 
 .generalForText {

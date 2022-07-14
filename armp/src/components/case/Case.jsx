@@ -6,6 +6,7 @@ import cabin1 from "../../assets/images/cabin1.png";
 import doghouse from "../../assets/images/doghouse.png";
 import woodenhouse from "../../assets/images/woodenhouse.png";
 import image7 from "../../assets/images/7.png";
+import tree1 from "../../assets/images/14.png";
 
 const Case = () =>
 {
@@ -14,6 +15,7 @@ const Case = () =>
       <div className="titleCase">Кейсы
       </div>
       <div className="styleImg7"><img src={image7} /></div>
+      <div className="styleImgTree1"><img src={tree1} /></div>
       <div className="textCase">
         Показываем процесс работы изнутри, делимся результатами, опытом,
         полезными фишками

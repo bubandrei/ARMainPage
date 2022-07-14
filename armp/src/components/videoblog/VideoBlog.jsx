@@ -4,12 +4,15 @@ import img1 from "../../assets/images/1.png";
 import img2 from "../../assets/images/2.png";
 import img3 from "../../assets/images/3.png";
 import vector from "../../assets/images/vector.png";
+import listImg from "../../assets/images/9.png";
+import cloudImg from "../../assets/images/15.png";
 
 const VideoBlog = () => {
   return (
-    <div className="mainBlog">
+    <div className="mainBlog ">
       <div className="mainImg"></div>
-      <div className="titleBlog">Видеоблог</div>
+      <div className="styleListImg"><img src={listImg}/></div>
+      <div className="titleBlog ">Видеоблог</div>
       <div className="textBlog">
         Снимаем для вас интересные ролики, в которых делимся полезной
         информацией
@@ -70,6 +73,8 @@ const VideoBlog = () => {
       <div className="blockforbtn">
         <button className="btnVideo">Больше полезных видео</button>
       </div>
+      <div className="styleListImg2"><img src={listImg}/></div>
+      <div className="styleCloudImg"><img src={cloudImg}/></div>
     </div>
   );
 };
