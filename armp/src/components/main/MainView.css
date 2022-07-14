@@ -12,7 +12,7 @@ body {
   position: absolute;
   max-width: 596px;
   max-height: 354px;
-  top: 36%;
+  top: 32%;
   right: 0%;
   overflow: hidden;
 }
@@ -32,8 +32,8 @@ body {
   line-height: 52px;
   vertical-align: Top;
   font-weight: 900;
-  width: 870px;
-  height: 100px;
+  max-width: 870px;
+  max-height: 100px;
 }
 
 .mainCover {
@@ -43,8 +43,8 @@ body {
   font-size: 18px;
   line-height: 26px;
   vertical-align: Top;
-  width: 850px;
-  height: 78px;
+  max-width: 850px;
+  max-height: 78px;
   font-weight: 400;
 }
 
@@ -91,7 +91,7 @@ body {
   position: relative;
   width: 88px;
   height: 88px;
-  border: 1px solid #319F1C;
+  border: 1px solid #319f1c;
   border-radius: 50%;
   background: #ffff;
   box-shadow: 0px 4px 8px #64bc45;
@@ -104,7 +104,69 @@ body {
 }
 
 .wrapInput {
-  width: 775px;
-  height: 80px;
+  max-width: 775px;
+  max-height: 80px;
   margin-top: 60px;
+}
+@media only screen and (max-width: 1720px) {
+  .title {
+    padding-top: 5%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 32px;
+    vertical-align: Top;
+    font-weight: 900;
+    max-width: 870px;
+    max-height: 100px;
+    display: inline;
+  }
+  .mainCover {
+    /* display: none; */
+    display: inline-table;
+  }
+  .styleText {
+    font-size: 12px;
+    font-family: Raleway;
+    padding-top: 15%;
+  }
+  .styleInput {
+    flex-direction: column;
+    height: 100px;
+  }
+  .bottomText {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .title {
+    padding-top: 5%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 32px;
+    color: white;
+    line-height: 32px;
+    vertical-align: Top;
+    font-weight: 900;
+    max-width: 870px;
+    max-height: 100px;
+    display: inline;
+  }
+  .mainCover {
+    color: white;
+    display: inline-table;
+  }
+  .styleText {
+    font-size: 12px;
+    font-family: Raleway;
+    padding-top: 15%;
+    color: white;
+  }
+  .styleInput {
+    flex-direction: column;
+    height: 100px;
+  }
+  .topClouds2 {
+    display: none;
+  }
 }
