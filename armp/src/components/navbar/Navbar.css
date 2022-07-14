@@ -30,17 +30,22 @@ header .nav_btn {
   background: transparent;
   border: none;
   outline: none;
-  /* visibility: hidden; */
   opacity: 0;
   font-size: 1.8rem;
 }
-
+.padLeft{
+  padding-left: 180px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
 nav a {
   margin: 0 32px;
   text-decoration: none;
   color: white;
 }
-nav a:hover {
+ a:hover {
   color: lightgray;
 }
 /* @media only screen and (max-width: 1024px) {

@@ -2,7 +2,7 @@ import React from "react";
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
-
+import arrows from "../../assets/images/18.png";
 const Navbar = () =>
 {
   const navRef = useRef();
@@ -12,11 +12,11 @@ const Navbar = () =>
   };
   return (
     <header>
-        <div><a>Коталог домов</a></div>
-        <div><a>Услуги</a></div>
-        <div><a>О нас</a></div>
-        <div><a>Контакты</a></div>
-        <div><a>Блог</a></div>
+        <div className="padLeft"><a href="#">Коталог домов <img src={arrows}/></a></div>
+        <div className="padLeft"><a href="">Услуги <img src={arrows}/></a></div>
+        <div className="padLeft"><a href="">О нас <img src={arrows}/></a></div>
+        <div className="padLeft"><a href="">Контакты <img src={arrows}/></a></div>
+        <div className="padLeft"><a href="">Блог <img src={arrows}/></a></div>
         {/* <button
           className='nav_btn nav_close_btn'
           onClick={showNavbar}
