@@ -110,19 +110,11 @@ body {
 }
 @media only screen and (max-width: 1720px) {
   .title {
-    padding-top: 5%;
-    font-family: Montserrat;
-    font-style: normal;
     font-size: 32px;
     line-height: 32px;
-    vertical-align: Top;
-    font-weight: 900;
-    max-width: 870px;
-    max-height: 100px;
     display: inline;
   }
   .mainCover {
-    /* display: none; */
     display: inline-table;
   }
   .styleText {
@@ -140,16 +132,9 @@ body {
 }
 @media only screen and (max-width: 1024px) {
   .title {
-    padding-top: 5%;
-    font-family: Montserrat;
-    font-style: normal;
     font-size: 32px;
     color: white;
     line-height: 32px;
-    vertical-align: Top;
-    font-weight: 900;
-    max-width: 870px;
-    max-height: 100px;
     display: inline;
   }
   .mainCover {

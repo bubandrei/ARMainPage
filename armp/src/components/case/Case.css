@@ -46,7 +46,8 @@
   top: 1049px;
 }
 
-.caseOption {}
+.caseOption {
+}
 
 .caseFoto {
   width: 776px;
@@ -84,7 +85,7 @@
   bottom: -8px;
   left: -6px;
 }
-.leftright{
+.leftright {
   position: absolute;
   bottom: 33px;
   display: flex;
@@ -96,23 +97,24 @@
   color: white;
   background-color: #319f1c;
 }
-.imgLR{
+.imgLR {
   display: block;
 }
 
 .titleBlock {
   font-weight: 900;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-size: 24px;
   line-height: 29px;
 }
 
-.textArea {}
+.textArea {
+}
 
 .bold {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -120,13 +122,13 @@
   padding: 24px;
 }
 
-  .rub{
-    display: inline-block; 
-    font-size: 34px; 
-    line-height: 7px;  
-    border-bottom: 1px solid #319f1c;
-   width:0.4em;
-   }
+.rub {
+  display: inline-block;
+  font-size: 34px;
+  line-height: 7px;
+  border-bottom: 1px solid #319f1c;
+  width: 0.4em;
+}
 
 .square {
   color: #319f1c;
@@ -140,4 +142,28 @@
 
 .link {
   text-align: center;
+}
+@media only screen and (max-width: 1720px) {
+  .styleImg7 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .wrapInCase {
+    flex-direction: column;
+    align-items: center;
+  }
+  .borderInput {
+    width: 775px;
+  }
+  .caseText {
+    width: 775px;
+    height: 435px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 5px lightgrey;
+    border-radius: 2px;
+  }
 }

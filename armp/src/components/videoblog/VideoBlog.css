@@ -33,7 +33,6 @@
   font-size: 18px;
   line-height: 21px;
   margin-bottom: 2%;
-  width: 794px;
   height: 24px;
   font-weight: 400;
 }
@@ -41,7 +40,7 @@
 .fotoBlog {
   display: flex;
   text-align: center;
-  width: 1697px;
+  max-width: 1697px;
   justify-content: space-between;
 }
 
@@ -50,15 +49,6 @@
   height: 330px;
 }
 
-.blackFoto:after {
-  /* content: "";
-  width: 90%;
-  height: 98%;
-  position: absolute;
-  top: 0px;
-  left: 5%;
-  background-color: rgba(0, 0, 0, 0.5); */
-}
 
 .btnVideo {
   background-color: #319f1c;
@@ -85,7 +75,6 @@
   height: 124px;
   left: 1680px;
   top: 1420px;
-  /* transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0); */
 }
 
 .styleListImg2 {
@@ -152,4 +141,33 @@
 .vector {
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (max-width: 1720px) {
+
+}
+@media only screen and (max-width: 1240px) {
+  .mainBlog{
+    height: 1350px;
+  }
+.titleBlog{
+  text-align: center;
+}
+.textBlog{
+  text-align: center;
+}
+.fotoBlog{
+  flex-direction: column;
+}
+  .titleVideo {
+    position: absolute;
+    top: 0px;
+    left: 2%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
 }
