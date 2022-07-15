@@ -43,7 +43,7 @@ const Case = () =>
           </div>
         </div>
         <div className="wrapFoto">
-          <div>
+          <div className="mainFotoCase">
             <img src={ foto } className="caseFoto" />
             <div className="toggleStyle">
               <img src={ toggle }/>
