@@ -73,15 +73,15 @@
   position: absolute;
   width: 196px;
   height: 124px;
-  left: 1680px;
-  top: 1420px;
+  right: 0%;
+  top: 76%;
 }
 
 .styleListImg2 {
   position: absolute;
   width: 175px;
   height: 110px;
-  left: 650px;
+  right: 52%;
   top: 2050px;
   transform: scale(-1, 1);
 }
@@ -90,7 +90,7 @@
   position: absolute;
   width: 878px;
   height: 478px;
-  left: 1007px;
+  right: 0%;
   top: 1853px;
   background-image: url(../../assets/images/15.png);
 }
@@ -142,6 +142,17 @@
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 1720px){
+  .styleListImg{
+    top: 50%;
+  }
+  .styleCloudImg{
+    display: none;
+  }
+  .styleListImg2{
+    top: 106%;
+  }
+}
 @media only screen and (max-width: 1240px) {
   .mainBlog{
     height: 1350px;
@@ -151,6 +162,12 @@
 }
 .textBlog{
   text-align: center;
+}
+.styleListImg{
+  display: none;
+}
+.styleListImg2{
+  display: none;
 }
 .fotoBlog{
   flex-direction: column;

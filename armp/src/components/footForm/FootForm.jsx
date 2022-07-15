@@ -10,7 +10,7 @@ const FootForm = () =>
                 <img src={ home } className="homeImg" />
                 <div className="cloud17Img"></div>
                 <div className="img10"></div>
-                <div className="img11"></div>
+                
             </div>
             <div className="wrapForm">
                 <form action="" className="styleForm">
@@ -22,7 +22,7 @@ const FootForm = () =>
                     <input type="submit" name="" id="" className="btnFootForm" />
                 </form>
             </div>
-    
+            <div className="img11"></div>
         </div>
     )
 }
