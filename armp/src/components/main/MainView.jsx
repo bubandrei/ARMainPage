@@ -2,7 +2,12 @@ import React from "react";
 import article from "../../assets/images/article.png";
 import portfolio from "../../assets/images/portfolio.png";
 import video from "../../assets/images/video.png";
-import clouds2 from "../../assets/images/13.png"
+import clouds2 from "../../assets/images/13.png";
+import calculator from "../../assets/images/20.png";
+import binoqle from "../../assets/images/21.png";
+import circle from "../../assets/images/22.png";
+import man from "../../assets/images/23.png";
+
 import "./MainView.css";
 
 
@@ -46,6 +51,12 @@ const MainView = () =>
         </div>
       </div>
       <div className="topClouds2"><img src={clouds2}/></div>
+      <div className="iconsRight">
+        <div className="iconR"><a href="#"><img src={calculator}/></a></div>
+        <div className="iconR"><a href="#"><img src={binoqle}/></a></div>
+        <div className="iconR"><a href="#"><img src={circle}/></a></div>
+        <div className="iconR"><a href="#"><img src={man}/></a></div>
+      </div>
     </div>
   );
 };
