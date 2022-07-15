@@ -4,16 +4,14 @@ header {
   justify-content: center;
   height: 64px;
   padding: 0 32px;
-  background: linear-gradient(
-    90deg,
-    rgba(246, 246, 246, 0) 1.47%,
-    rgba(163, 210, 155, 0.92) 7.25%,
-    #319f1c 14.68%,
-    #309e1b 50.68%,
-    #319f1c 84.33%,
-    rgba(147, 202, 137, 0.79) 91.68%,
-    rgba(246, 246, 246, 0) 99.05%
-  );
+  background: linear-gradient(90deg,
+      rgba(246, 246, 246, 0) 1.47%,
+      rgba(163, 210, 155, 0.92) 7.25%,
+      #319f1c 14.68%,
+      #309e1b 50.68%,
+      #319f1c 84.33%,
+      rgba(147, 202, 137, 0.79) 91.68%,
+      rgba(246, 246, 246, 0) 99.05%);
   border-radius: 3px;
   color: white;
   font-family: "Raleway";
@@ -23,6 +21,7 @@ header {
   line-height: 19px;
   max-width: 1580px;
 }
+
 header .nav_btn {
   background-color: brown;
   padding: 6px;
@@ -33,21 +32,27 @@ header .nav_btn {
   opacity: 0;
   font-size: 1.8rem;
 }
-.padLeft{
+
+.padLeft {
   padding-left: 180px;
+  position: relative;
 }
-a{
+
+a {
   text-decoration: none;
   color: white;
 }
+
 nav a {
   margin: 0 32px;
   text-decoration: none;
   color: white;
 }
- a:hover {
+
+a:hover {
   color: lightgray;
 }
+
 /* @media only screen and (max-width: 1024px) {
   header .nav_btn {
     visibility: hidden;
@@ -80,3 +85,35 @@ nav a {
     font-size: 1.5rem;
   }
 } */
+.menu {
+  position: absolute;
+  width: 348px;
+  height: 150px;
+  left: -36%;
+  top: 224%;
+  background: #595959;
+  border-radius: 0px 0px 3px 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: none;
+}
+
+.textMenu {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  padding-left: 10%;
+
+}
+
+.bottomLine {
+  border-bottom: 1px solid;
+  max-width: 275px;
+}
+
+.blogHover:hover .menu {
+  display: flex;
+}
