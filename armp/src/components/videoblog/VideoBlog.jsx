@@ -5,10 +5,8 @@ import img2 from "../../assets/images/2.png";
 import img3 from "../../assets/images/3.png";
 import vector from "../../assets/images/vector.png";
 import listImg from "../../assets/images/9.png";
-import cloudImg from "../../assets/images/15.png";
 
-const VideoBlog = () =>
-{
+const VideoBlog = () =>{
   return (
     <div className="mainBlog ">
       <div className="mainImg "></div>
